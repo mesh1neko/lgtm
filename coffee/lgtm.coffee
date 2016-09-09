@@ -102,7 +102,7 @@ class LGTM
 
       $(page).append(container)
 
-    mergeButtonClass = ".js-merge-branch-action"
+    mergeButtonClass = ".js-merge-pr"
 
     if @disableMerge and count < @disableMergeThreshold
       $(mergeButtonClass).prop("disabled", true)
